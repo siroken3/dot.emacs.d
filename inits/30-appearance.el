@@ -10,15 +10,5 @@
 (toggle-scroll-bar nil)
 
 ;;; 現在行を目立たせる
-(defface my-hl-line-face
-  '((((class color)
-      (background dark))
-     (:background "dark slate gray"))
-    (((class color)
-      (background light))
-     (:background "#232323"))
-    (t
-     ()))
-  "*Face used by hl-line.")
-(setq hl-line-face 'my-hl-line-face)
+(setq hl-line-face 'underline)
 (global-hl-line-mode)
