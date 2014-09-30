@@ -36,7 +36,7 @@
 ;; open-junk
 (global-set-key (kbd "C-x j") 'open-junk-file)
 
-;; recentf
+w;; recentf
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
 ;; Google Translate
@@ -50,7 +50,7 @@
 (global-set-key (kbd "M-h") 'ac-complete-look)
 
 ;;; window の移動
-(global-set-key (kbd "C-z") 'other-window-or-split)
+;;(global-set-key (kbd "C-z") 'other-window-or-split)
 (global-set-key (kbd "C-S-z") 'previous-multiframe-window)
 
 ;; flychek
