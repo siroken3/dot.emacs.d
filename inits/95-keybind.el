@@ -36,7 +36,7 @@
 ;; open-junk
 (global-set-key (kbd "C-x j") 'open-junk-file)
 
-w;; recentf
+;; recentf
 (global-set-key (kbd "C-x C-r") 'recentf-open-files)
 
 ;; Google Translate
