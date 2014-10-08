@@ -15,6 +15,7 @@
   '(
     ;; ここに使っているパッケージを書く。
     init-loader
+    magit
     php-mode
     scala-mode2
     markdown-mode
